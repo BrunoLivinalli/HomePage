@@ -1,0 +1,190 @@
+/* Reset da Pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Limitando margens da pagina */
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Comandos referente ao header do Projeto*/
+
+nav {
+    margin-bottom: 30px;
+}
+
+.menu-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.menu-navegacao li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.menu-navegacao a:hover {
+    color: hsl(5, 85%, 63%);
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.menu-navegacao a {
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+}
+
+
+
+/* Comandos referente ao Banner e seus filhos*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 720px;
+}
+
+.itens {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+}
+
+.item-texto {
+    flex: 1;
+    margin: 45px 0px 0px 0px;
+    text-align: left;
+}
+
+input[type="submit"] {
+    padding: 15px 40px;
+    font-size: 18px;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    cursor: pointer;
+    color: white;
+    outline: 0;
+    letter-spacing: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+#banner {
+    width: 100%;
+}
+
+#texto {
+    padding: 0px;
+    color: gray;
+    margin: 5px 40px 0px 0px;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+#button {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 80px;
+    margin-right: 40x;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 70px;
+}
+
+/* Comandos referente ao aside do main*/
+
+h2 {
+    color: hsl(35, 77%, 62%);
+    padding: 5px 0px;
+    font-size: 50px;
+}
+
+.aside {
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    width: 360px;
+    margin-left: 30px;
+    padding: 40px;
+}
+
+aside .section:nth-child(n+1):nth-child(-n+3) {
+    border-bottom: 1px solid #FFF;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.aside-titulo {
+    padding-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+}
+
+.aside-texto {
+    color: grey;
+    margin: 0;
+    padding: 15px 0;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+/* Comandos referente ao footer do Projeto*/
+
+.footer {
+    display: flex;
+    margin: 80px 0 100px 0;
+    justify-content: space-between;
+}
+
+.footer-image {
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+}
+
+.footer-conteudo {
+    flex-direction: column;
+    padding: 0 30px;
+    color: gray;
+    text-align: left;
+    line-height: 30px;
+    margin: 15px 20px 0 0;
+}
+
+#footer-titulo {
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+    font-size: 20px;
+    line-height: 70px;
+}
+
+#footer-titulo:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+#footer-numero {
+    font-size: 45px;
+    color: hsla(0, 3%, 75%, 0.932);
+}
