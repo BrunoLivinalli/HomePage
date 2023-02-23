@@ -50,9 +50,7 @@ nav {
 
 .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-height: 720px;
+    justify-content: center;
 }
 
 .itens {
@@ -85,6 +83,8 @@ input[type="submit"]:hover {
 
 #banner {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #texto {
@@ -119,7 +119,7 @@ h2 {
     color: white;
     width: 360px;
     margin-left: 30px;
-    padding: 40px;
+    padding: 40px 40px 0 40px;
 }
 
 aside .section:nth-child(n+1):nth-child(-n+3) {
